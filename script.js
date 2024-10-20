@@ -1,43 +1,18 @@
 // Mảng chứa các URL của các hình ảnh
 const images = [
-    'images/hinh (0).jpg',
-    'images/hinh (1).jpg',
-    'images/hinh (2).jpg',
-    'images/hinh (4).jpg',
-    'images/hinh (5).jpg',
-    'images/hinh (6).jpg',
-    'images/hinh (7).jpg',
-    'images/hinh (8).jpg',
-    'images/hinh (9).jpg',
-    'images/hinh (10).jpg',
-    'images/hinh (11).jpg',
-    'images/hinh (12).jpg',
-    'images/hinh (13).jpg',
-    'images/hinh (14).jpg',
-    'images/hinh (15).jpg',
-    'images/hinh (16).jpg',
-    'images/hinh (17).jpg',
-    'images/hinh (18).jpg',
-    'images/hinh (19).jpg',
-    'images/hinh (20).jpg',
-    'images/hinh (21).jpg',
-    'images/hinh (22).jpg',
-    'images/hinh (23).jpg',
-    'images/hinh (24).jpg',
-    'images/hinh (25).jpg',
-    'images/hinh (26).jpg',
-    'images/hinh (27).jpg',
-    'images/hinh (28).jpg',
-    'images/hinh (29).jpg',
-    'images/hinh (30).jpg',
-    'images/hinh (31).jpg',
-    'images/hinh (32).jpg',
-    'images/hinh (33).jpg',
-    'images/hinh (34).jpg',
-    'images/hinh (35).jpg',
-    'images/hinh (36).jpg',
-    'images/hinh (37).jpg',
-    'images/hinh (38).jpg',
+    'images/hinh1.jpg',
+    'images/hinh2.jpg',
+    'images/hinh3.jpg',
+    'images/hinh4.jpg',
+    'images/hinh5.jpg',
+    'images/hinh6.jpg',
+    'images/hinh7.jpg',
+    'images/hinh8.jpg',
+    'images/hinh9.jpg',
+    'images/hinh10.jpg',
+    'images/hinh11.jpg',
+    'images/hinh12.jpg',
+    'images/hinh13.jpg'
 ];
 
 // Mảng chứa các lời chúc
@@ -85,3 +60,4 @@ function showRandomContent() {
 
 // Gọi hàm để hiển thị nội dung khi trang web tải xong
 window.onload = showRandomContent;
+
